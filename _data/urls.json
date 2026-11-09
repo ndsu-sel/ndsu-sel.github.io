@@ -1,28 +1,28 @@
 [
   {
-    "text": "Home",
+    "text": "ホーム",
     "url": "/",
     "icon": "fa-home",
     "layout": "post"
   },
   {
-    "text": "About",
+    "text": "概要",
     "url": "/about/",
     "icon": "fa-comments"
   },
   {
-    "text": "Projects",
+    "text": "メンバー",
     "url": "/projects",
     "icon": "fa-desktop"
   },
   {
-    "text": "Resume",
+    "text": "研究業績",
     "url": "/#",
     "icon": "fa-graduation-cap",
   },
   {
-    "text": "Github",
-    "url": "/#",
+    "text": "情報デザイン学部",
+    "url": "https://www.ndsu.ac.jp/department/information-design/",
     "icon": "fa-github"
   },
   {

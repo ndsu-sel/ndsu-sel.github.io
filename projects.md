@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: member
 title: メンバー
-permalink: /projects/
+permalink: /member/
 ---
 
 Few of my projects.

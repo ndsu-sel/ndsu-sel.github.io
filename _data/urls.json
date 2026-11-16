@@ -8,12 +8,12 @@
   {
     "text": "概要",
     "url": "/about/",
-    "icon": "fa-comments"
+    "icon": "fa-file-circle-question"
   },
   {
     "text": "メンバー",
     "url": "/member",
-    "icon": "fa-desktop"
+    "icon": "fa-users"
   },
   {
     "text": "研究",
@@ -23,12 +23,8 @@
   {
     "text": "情報デザイン学部",
     "url": "https://www.ndsu.ac.jp/department/information-design/",
-    "icon": "fa-github"
-  },
-  {
-    "text": "XML Feed",
-    "url": "/feed.xml",
-    "icon": "fa-feed",
-    "target": _blank
+    "icon": "fa-desktop",
+     "target": _blank
   }
+  
 ]

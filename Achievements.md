@@ -1,6 +1,6 @@
 ---
 layout: achievements
-title: 研究実績
+title: 研究
 permalink: /Achievements/
 ---
 

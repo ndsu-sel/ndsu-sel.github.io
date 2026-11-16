@@ -1,22 +1,14 @@
 title: ソフトウェア工学研究室
 description: ソフトウェア工学研究室
 author: ソフトウェア工学研究室
-logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /static/img/メディア.jpeg
 github: https://github.com/codeasashu
-about: Freelance developer
+about: ＠ノートルダム清心女子大学　　情報デザイン学部
 
 baseurl: ""
 url: ""
 
 allowsearch: true
-
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
-
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
 
 enableTags: true
 tagarray: []
@@ -25,4 +17,4 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist]

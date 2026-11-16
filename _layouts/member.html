@@ -41,11 +41,11 @@ layout: default
 	3年生
 	<div class="member row">
     {% for i in site.data.members.b3 %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    <div class="project-item col-md-3 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well project-outer">
     		<div class="project-inner">
     			<a href="/static/member/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
+    			<div class="project-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
                 </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>

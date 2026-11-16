@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Projects
+title: メンバー
 permalink: /projects/
 ---
 

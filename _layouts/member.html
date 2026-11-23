@@ -5,15 +5,13 @@ layout: default
 
   <div class="post-content">
     {{ content }}
-	教員
+	<h2>教員</h2>
     <div class="member row">
     {% for i in site.data.members.teacher %}
     <div class="member-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well member-outer">
     		<div class="member-inner">
-    			<a href="/static/member/{{ i.image }}" class="thickbox">
     			<div class="member-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
-                </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="member-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
@@ -24,15 +22,13 @@ layout: default
         </div>
     {% endfor %}
     </div>
-	3年生
+	<h2>3年生</h2>
 	<div class="member row">
     {% for i in site.data.members.b3 %}
     <div class="member-item col-md-3 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well member-outer">
     		<div class="member-inner">
-    			<a href="/static/member/{{ i.image }}" class="thickbox">
     			<div class="member-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
-                </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="member-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}

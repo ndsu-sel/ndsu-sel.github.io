@@ -8,16 +8,16 @@ layout: default
 	教員
     <div class="member row">
     {% for i in site.data.members.teacher %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
-    	<div class="well project-outer">
-    		<div class="project-inner">
+    <div class="member-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    	<div class="well member-outer">
+    		<div class="member-inner">
     			<a href="/static/member/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
+    			<div class="member-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
                 </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
-    			<h3 class="project-headlines">{{ i.name }}</h3>
+    			<h3 class="member-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
-    			<div class="project-content">
+    			<div class="member-content">
     				<div class="tag-holder">
     				{% if i.tags %} 
     					{% for j in i.tags %}
@@ -27,11 +27,11 @@ layout: default
     				</div>
     				
     			</div>
-    			<div class="project-footer"> 
+    			<div class="member-footer"> 
     				{% if i.url %} 
-    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
+    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm member-link">View</a>
     				{% endif %}
-    				<span class="project-timeline">{{ i.date }}</span>
+    				<span class="member-timeline">{{ i.date }}</span>
     			</div>
     		</div>
     	</div>
@@ -41,16 +41,16 @@ layout: default
 	3年生
 	<div class="member row">
     {% for i in site.data.members.b3 %}
-    <div class="project-item col-md-3 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
-    	<div class="well project-outer">
-    		<div class="project-inner">
+    <div class="member-item col-md-3 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    	<div class="well member-outer">
+    		<div class="member-inner">
     			<a href="/static/member/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
+    			<div class="member-img bordered" style="background-image: url('/static/member/{{ i.image }}');"></div>
                 </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
-    			<h3 class="project-headlines">{{ i.name }}</h3>
+    			<h3 class="member-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
-    			<div class="project-content">
+    			<div class="member-content">
     				<div class="tag-holder">
     				{% if i.tags %} 
     					{% for j in i.tags %}
@@ -60,11 +60,11 @@ layout: default
     				</div>
     				
     			</div>
-    			<div class="project-footer"> 
+    			<div class="member-footer"> 
     				{% if i.url %} 
     				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
     				{% endif %}
-    				<span class="project-timeline">{{ i.date }}</span>
+    				<span class="member-timeline">{{ i.date }}</span>
     			</div>
     		</div>
     	</div>

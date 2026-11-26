@@ -1,10 +1,15 @@
-{
-    "teacher":[
-        {"name":"神田哲也", "image":"kanda.webp", "url":"https://www.tetsuyakanda.jp/"}
-    ]
-,
-    "b3":[
-        {"name":"中原絢音","image":"nakahara.jpeg"},
-        {"name":"福島実可子","image":"fukushima.jpg"}
-    ]
-}
+[
+    {
+        "type":"教員",
+        "member":[
+            {"name":"神田哲也", "image":"kanda.webp", "url":"https://www.tetsuyakanda.jp/"}
+        ]
+    },
+    {
+        "type":"3年生",
+        "member":[
+            {"name":"中原絢音","image":"nakahara.jpeg"},
+            {"name":"福島実可子","image":"fukushima.jpg"}
+        ]
+    }
+]
